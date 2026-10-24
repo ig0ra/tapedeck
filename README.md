@@ -16,6 +16,10 @@
   <img src="https://img.shields.io/badge/transcription-on%20device-555" alt="Transcription on device">
 </p>
 
+
+
+https://github.com/user-attachments/assets/2528bc18-3ad0-4d74-9ad6-5dc593a9908b
+
 <!-- Teaser video: in GitHub's web editor, drag tapedeck-teaser.mp4 onto the empty line below.
      GitHub uploads it and puts a https://github.com/user-attachments/assets/… link there, which plays inline. -->
 
