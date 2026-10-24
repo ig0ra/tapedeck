@@ -68,8 +68,7 @@ Press <kbd>⌃</kbd><kbd>⌥</kbd><kbd>R</kbd> when the call starts and again wh
 Your microphone is always on tape. With headphones in, Tapedeck also records what your Mac plays into them, so the other side is recorded directly rather than through your mic. On speakers your mic already hears everyone, so it leaves that part out.
 
 <p align="center">
-  <img src=".github/readme/clips/press-record.gif" width="440" alt="From the teaser: the red Start Recording button in Tapedeck's menu springs open into a cassette, its reels start turning and the counter starts">
-  <img src=".github/readme/clips/both-sides.gif" width="440" alt="From the teaser: the conversation as a landscape, your voice in coral on one side and theirs in cyan on the other, recorded onto the tape running between them; the floating bar opens to show its buttons">
+  <img src=".github/readme/clips/record-pair.gif" width="896" alt="From the teaser: the red Start Recording button in Tapedeck's menu springs open into a cassette, its reels start turning and the counter starts. Next to it: the conversation as a landscape, your voice in coral on one side and theirs in cyan on the other, recorded onto the tape running between them; the floating bar opens to show its buttons">
 </p>
 
 <p align="center">
@@ -87,8 +86,7 @@ While you talk, a small glass bar sits at the top of the screen. The reels turn 
 Tapedeck records any call app. When Zoom, Teams, Slack, FaceTime, WhatsApp, Telegram, Discord, Webex or a browser (Google Meet and others) starts using the microphone, a small bar asks whether to record. A few minutes into the recording it asks how many people are on the call, so their voices can be told apart. Ignore either one and it goes away by itself.
 
 <p align="center">
-  <img src=".github/readme/clips/asks.gif" width="440" alt="From the teaser: a glass bar says Zoom is using the microphone and asks to record this call; the pointer clicks Record">
-  <img src=".github/readme/clips/how-many.gif" width="440" alt="From the teaser: a glass bar asks how many people are on the call, and four, the number from the calendar, lights up">
+  <img src=".github/readme/clips/asks-pair.gif" width="896" alt="From the teaser: a glass bar says Zoom is using the microphone and asks to record this call; the pointer clicks Record. Next to it: a glass bar asks how many people are on the call, and four, the number from the calendar, lights up">
 </p>
 
 ## Transcribes on your Mac
