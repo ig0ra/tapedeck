@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/readme/icon.png" width="112" alt="">
+  <img src=".github/readme/clips/icon.gif" width="140" alt="A strip of magnetic tape winds itself into the two reels of the Tapedeck icon">
 </p>
 
 <h1 align="center">Tapedeck</h1>
@@ -15,6 +15,10 @@
   <img src="https://img.shields.io/badge/Apple%20Silicon-native-555" alt="Apple Silicon">
   <img src="https://img.shields.io/badge/transcription-on%20device-555" alt="Transcription on device">
 </p>
+
+<!-- Teaser video: in GitHub's web editor, drag tapedeck-teaser.mp4 onto the empty line below.
+     GitHub uploads it and puts a https://github.com/user-attachments/assets/… link there, which plays inline. -->
+
 
 <p align="center">
   <img src=".github/readme/hero.png" width="920" alt="A video call on a Mac. Tapedeck's menu hangs from its tape icon in the menu bar, recording the call on a cassette; the floating bar at the top shows the time, and a small bar under it asks how many people are on the call">
@@ -64,6 +68,11 @@ Press <kbd>⌃</kbd><kbd>⌥</kbd><kbd>R</kbd> when the call starts and again wh
 Your microphone is always on tape. With headphones in, Tapedeck also records what your Mac plays into them, so the other side is recorded directly rather than through your mic. On speakers your mic already hears everyone, so it leaves that part out.
 
 <p align="center">
+  <img src=".github/readme/clips/press-record.gif" width="440" alt="From the teaser: the red Start Recording button in Tapedeck's menu springs open into a cassette, its reels start turning and the counter starts">
+  <img src=".github/readme/clips/both-sides.gif" width="440" alt="From the teaser: the conversation as a landscape, your voice in coral on one side and theirs in cyan on the other, recorded onto the tape running between them; the floating bar opens to show its buttons">
+</p>
+
+<p align="center">
   <img src=".github/readme/bar.gif" width="432" alt="The floating bar while recording: two reels turning with the voices, the time, and buttons to discard, pause, stop, add a note and save">
 </p>
 
@@ -77,6 +86,11 @@ While you talk, a small glass bar sits at the top of the screen. The reels turn 
 
 Tapedeck records any call app. When Zoom, Teams, Slack, FaceTime, WhatsApp, Telegram, Discord, Webex or a browser (Google Meet and others) starts using the microphone, a small bar asks whether to record. A few minutes into the recording it asks how many people are on the call, so their voices can be told apart. Ignore either one and it goes away by itself.
 
+<p align="center">
+  <img src=".github/readme/clips/asks.gif" width="440" alt="From the teaser: a glass bar says Zoom is using the microphone and asks to record this call; the pointer clicks Record">
+  <img src=".github/readme/clips/how-many.gif" width="440" alt="From the teaser: a glass bar asks how many people are on the call, and four, the number from the calendar, lights up">
+</p>
+
 ## Transcribes on your Mac
 
 <p align="center">
@@ -84,6 +98,10 @@ Tapedeck records any call app. When Zoom, Teams, Slack, FaceTime, WhatsApp, Tele
 </p>
 
 Whisper turns the speech into text right on your Mac, in English, Ukrainian or Russian, or it detects the language for you. Then the voices are separated: with headphones you get "Me" and "Them" ("Them 1", "Them 2" when several people are on the other end), on speakers "Me", "Speaker 2", "Speaker 3". The call takes its name from your calendar or, on macOS 26 with Apple Intelligence on, from what was said. Otherwise it is named by the time.
+
+<p align="center">
+  <img src=".github/readme/clips/transcript.gif" width="600" alt="From the teaser: four coloured ribbons, one per voice, write the transcript line by line: Me, Them 1, Them 2, Them 3">
+</p>
 
 Open the transcript as plain text, Markdown or PDF, or have it waiting on the clipboard when it is ready. If the voices came out wrong, tell Tapedeck how many people there were and it splits them again in under a minute, without transcribing anything twice.
 
@@ -94,6 +112,10 @@ Open the transcript as plain text, Markdown or PDF, or have it waiting on the cl
 </p>
 
 Pick the microphone. By default Tapedeck keeps using the Mac's own mic when your AirPods connect, so they keep their full sound quality; you can follow macOS instead or stick to one mic. Leave music and video apps out of the other side's track. Change the shortcuts, the questions, and the look of the recording card: there is a cassette, a tape deck, a reel-to-reel, a dictaphone and a few more.
+
+<p align="center">
+  <img src=".github/readme/clips/looks.gif" width="560" alt="From the teaser: a reel-to-reel, a tape deck, a record lathe and a glass cassette, each next to the matching recording card from the menu">
+</p>
 
 After transcription the audio is compressed to about 14 MB an hour. After as many days as you choose (30 by default) it goes to the Trash; transcripts stay. A recording shorter than a few seconds, like a double press of the shortcut, is not kept.
 
@@ -108,6 +130,10 @@ After transcription the audio is compressed to about 14 MB an hour. After as man
 ## Privacy
 
 Recording, transcription and speaker separation all happen on your Mac. There is no account, no server and no analytics.
+
+<p align="center">
+  <img src=".github/readme/clips/no-cloud.gif" width="600" alt="From the teaser: clouds part over a glacier under a neon sky with the words No account, no cloud">
+</p>
 
 Tapedeck goes online for three things only:
 
