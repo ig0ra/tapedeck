@@ -1,16 +1,18 @@
 <p align="center">
-  <img src=".github/readme/clips/icon.gif" width="140" alt="A strip of magnetic tape winds itself into the two reels of the Tapedeck icon">
+  <img src=".github/readme/clips/icon.gif" width="140" alt="A strip of magnetic tape winds itself into the two reels of the Notetape icon">
 </p>
 
-<h1 align="center">Tapedeck</h1>
+<h1 align="center">Notetape</h1>
 
 <p align="center">
   <b>A tape recorder for your calls.</b><br>
   It lives in the menu bar, records both sides and writes the transcript on your Mac.
 </p>
 
+<p align="center"><sub>Notetape was called Tapedeck until version 1.2.0. If you have Tapedeck, it updates itself to Notetape: your recordings, settings and permissions stay.</sub></p>
+
 <p align="center">
-  <a href="https://github.com/ig0ra/tapedeck/releases/latest"><img src="https://img.shields.io/github/v/release/ig0ra/tapedeck?label=download&color=e5484d" alt="Download the latest version"></a>
+  <a href="https://github.com/ig0ra/notetape/releases/latest"><img src="https://img.shields.io/github/v/release/ig0ra/notetape?label=download&color=e5484d" alt="Download the latest version"></a>
   <img src="https://img.shields.io/badge/macOS-14.2%2B-555" alt="macOS 14.2 or later">
   <img src="https://img.shields.io/badge/Apple%20Silicon-native-555" alt="Apple Silicon">
   <img src="https://img.shields.io/badge/transcription-on%20device-555" alt="Transcription on device">
@@ -25,7 +27,7 @@ https://github.com/user-attachments/assets/2528bc18-3ad0-4d74-9ad6-5dc593a9908b
 
 
 <p align="center">
-  <img src=".github/readme/hero.png" width="920" alt="A video call on a Mac. Tapedeck's menu hangs from its tape icon in the menu bar, recording the call on a cassette; the floating bar at the top shows the time, and a small bar under it asks how many people are on the call">
+  <img src=".github/readme/hero.png" width="920" alt="A video call on a Mac. Notetape's menu hangs from its tape icon in the menu bar, recording the call on a cassette; the floating bar at the top shows the time, and a small bar under it asks how many people are on the call">
 </p>
 
 Press <kbd>⌃</kbd><kbd>⌥</kbd><kbd>R</kbd> when the call starts and again when it ends. A few minutes later you have a transcript that says who said what, the audio, and a name from your calendar when there is one, in a folder you choose. Nothing leaves your Mac unless you turn on GitHub sync.
@@ -69,10 +71,10 @@ Press <kbd>⌃</kbd><kbd>⌥</kbd><kbd>R</kbd> when the call starts and again wh
 
 ## Records both sides
 
-Your microphone is always on tape. With headphones in, Tapedeck also records what your Mac plays into them, so the other side is recorded directly rather than through your mic. On speakers your mic already hears everyone, so it leaves that part out.
+Your microphone is always on tape. With headphones in, Notetape also records what your Mac plays into them, so the other side is recorded directly rather than through your mic. On speakers your mic already hears everyone, so it leaves that part out.
 
 <p align="center">
-  <img src=".github/readme/clips/record-pair.gif" width="896" alt="From the teaser: the red Start Recording button in Tapedeck's menu springs open into a cassette, its reels start turning and the counter starts. Next to it: the conversation as a landscape, your voice in coral on one side and theirs in cyan on the other, recorded onto the tape running between them; the floating bar opens to show its buttons">
+  <img src=".github/readme/clips/record-pair.gif" width="896" alt="From the teaser: the red Start Recording button in Notetape's menu springs open into a cassette, its reels start turning and the counter starts. Next to it: the conversation as a landscape, your voice in coral on one side and theirs in cyan on the other, recorded onto the tape running between them; the floating bar opens to show its buttons">
 </p>
 
 <p align="center">
@@ -87,7 +89,7 @@ While you talk, a small glass bar sits at the top of the screen. The reels turn 
   <img src=".github/readme/ask.png" width="920" alt="A video call has just started; a small bar at the top of the screen says Zoom is using the microphone and asks whether to record this call">
 </p>
 
-Tapedeck records any call app. When Zoom, Teams, Slack, FaceTime, WhatsApp, Telegram, Discord, Webex or a browser (Google Meet and others) starts using the microphone, a small bar asks whether to record. A few minutes into the recording it asks how many people are on the call, so their voices can be told apart. Ignore either one and it goes away by itself.
+Notetape records any call app. When Zoom, Teams, Slack, FaceTime, WhatsApp, Telegram, Discord, Webex or a browser (Google Meet and others) starts using the microphone, a small bar asks whether to record. A few minutes into the recording it asks how many people are on the call, so their voices can be told apart. Ignore either one and it goes away by itself.
 
 <p align="center">
   <img src=".github/readme/clips/asks-pair.gif" width="896" alt="From the teaser: a glass bar says Zoom is using the microphone and asks to record this call; the pointer clicks Record. Next to it: a glass bar asks how many people are on the call, and four, the number from the calendar, lights up">
@@ -96,7 +98,7 @@ Tapedeck records any call app. When Zoom, Teams, Slack, FaceTime, WhatsApp, Tele
 ## Transcribes on your Mac
 
 <p align="center">
-  <img src=".github/readme/transcribe.png" width="920" alt="A finished transcript next to Tapedeck's menu: each line has the time and who spoke, Me, Them 1, Them 2, Them 3; the menu shows the next call being transcribed and the recent calls">
+  <img src=".github/readme/transcribe.png" width="920" alt="A finished transcript next to Notetape's menu: each line has the time and who spoke, Me, Them 1, Them 2, Them 3; the menu shows the next call being transcribed and the recent calls">
 </p>
 
 Whisper turns the speech into text right on your Mac, in English, Ukrainian or Russian, or it detects the language for you. Then the voices are separated: with headphones you get "Me" and "Them" ("Them 1", "Them 2" when several people are on the other end), on speakers "Me", "Speaker 2", "Speaker 3". The call takes its name from your calendar or, on macOS 26 with Apple Intelligence on, from what was said. Otherwise it is named by the time.
@@ -105,15 +107,15 @@ Whisper turns the speech into text right on your Mac, in English, Ukrainian or R
   <img src=".github/readme/clips/transcript.gif" width="600" alt="From the teaser: four coloured ribbons, one per voice, write the transcript line by line: Me, Them 1, Them 2, Them 3">
 </p>
 
-Open the transcript as plain text, Markdown or PDF, or have it waiting on the clipboard when it is ready. If the voices came out wrong, tell Tapedeck how many people there were and it splits them again in under a minute, without transcribing anything twice.
+Open the transcript as plain text, Markdown or PDF, or have it waiting on the clipboard when it is ready. If the voices came out wrong, tell Notetape how many people there were and it splits them again in under a minute, without transcribing anything twice.
 
 ## Settings
 
 <p align="center">
-  <img src=".github/readme/settings.png" width="760" alt="Tapedeck settings, Recording page: microphone, the other side of the call, apps left out of the other side's track">
+  <img src=".github/readme/settings.png" width="760" alt="Notetape settings, Recording page: microphone, the other side of the call, apps left out of the other side's track">
 </p>
 
-Pick the microphone. By default Tapedeck keeps using the Mac's own mic when your AirPods connect, so they keep their full sound quality; you can follow macOS instead or stick to one mic. Leave music and video apps out of the other side's track. Change the shortcuts, the questions, and the look of the recording card: there is a cassette, a tape deck, a reel-to-reel, a dictaphone and a few more.
+Pick the microphone. By default Notetape keeps using the Mac's own mic when your AirPods connect, so they keep their full sound quality; you can follow macOS instead or stick to one mic. Leave music and video apps out of the other side's track. Change the shortcuts, the questions, and the look of the recording card: there is a cassette, a tape deck, a reel-to-reel, a dictaphone and a few more.
 
 <p align="center">
   <img src=".github/readme/clips/looks.gif" width="560" alt="From the teaser: a reel-to-reel, a tape deck, a record lathe and a glass cassette, each next to the matching recording card from the menu">
@@ -137,7 +139,7 @@ Recording, transcription and speaker separation all happen on your Mac. There is
   <img src=".github/readme/clips/no-cloud.gif" width="600" alt="From the teaser: clouds part over a glacier under a neon sky with the words No account, no cloud">
 </p>
 
-Tapedeck goes online for three things only:
+Notetape goes online for three things only:
 
 - to download the speech and speaker models once (about 650 MB, or 1.5 GB for the optional Accurate model);
 - to check for updates;
@@ -145,11 +147,11 @@ Tapedeck goes online for three things only:
 
 ## Install
 
-1. Download the `.dmg` from [Releases](https://github.com/ig0ra/tapedeck/releases/latest) and drag Tapedeck to Applications.
-2. Open it. Tapedeck is not notarized by Apple yet, so macOS says it cannot check the app: click **Done**, then go to **System Settings → Privacy & Security** and click **Open Anyway**. You only do this once.
+1. Download the `.dmg` from [Releases](https://github.com/ig0ra/notetape/releases/latest) and drag Notetape to Applications.
+2. Open it. Notetape is not notarized by Apple yet, so macOS says it cannot check the app: click **Done**, then go to **System Settings → Privacy & Security** and click **Open Anyway**. You only do this once.
 3. A tape icon appears in the menu bar. When you record the first time, allow the microphone and, for headphones, System Audio Recording.
 
-Tapedeck checks for a new version once a day and tells you what is new. Install it with one click, or turn on "Install updates without asking". Every update is checked against Tapedeck's signature first, and none is installed during a recording or a transcription.
+Notetape checks for a new version once a day and tells you what is new. Install it with one click, or turn on "Install updates without asking". Every update is checked against Notetape's signature first, and none is installed during a recording or a transcription.
 
 **Requirements:** a Mac with Apple Silicon (Intel Macs are not supported), macOS 14.2 or later, about 1 GB of free space. Calendar access is optional.
 
@@ -158,7 +160,7 @@ Tapedeck checks for a new version once a day and tells you what is new. Install 
 <details>
 <summary><b>Does it work with Google Meet and other calls in the browser?</b></summary>
 <br>
-Yes. Tapedeck records the microphone and what your Mac plays, whatever app the call is in. It also offers to record when Chrome, Safari, Arc, Firefox, Edge, Brave, Opera or Vivaldi start using the microphone.
+Yes. Notetape records the microphone and what your Mac plays, whatever app the call is in. It also offers to record when Chrome, Safari, Arc, Firefox, Edge, Brave, Opera or Vivaldi start using the microphone.
 </details>
 
 <details>
@@ -170,13 +172,13 @@ No. On speakers your microphone hears both sides, and that is what gets recorded
 <details>
 <summary><b>Where do my recordings go?</b></summary>
 <br>
-Each call gets a folder in Documents → Tapedeck, named by its date and title, with the transcript and the audio. You can choose another folder in Settings.
+Each call gets a folder in Documents → Notetape (Documents → Tapedeck if you updated from Tapedeck), named by its date and title, with the transcript and the audio. You can choose another folder in Settings.
 </details>
 
 <details>
 <summary><b>Why does macOS say it cannot check the app?</b></summary>
 <br>
-Tapedeck is signed but not notarized by Apple yet. Use <b>Open Anyway</b> in System Settings → Privacy & Security once; updates after that install without the question.
+Notetape is signed but not notarized by Apple yet. Use <b>Open Anyway</b> in System Settings → Privacy & Security once; updates after that install without the question.
 </details>
 
 <details>
